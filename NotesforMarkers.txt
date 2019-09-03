@@ -1,0 +1,15 @@
+There are a couple 'issues' or inconsistencies I'd like to point out (for the sake of pointing them out/making it known I know about them.) Here they are.
+
+1. adding  the two scripts (navbar.js) and (buttons.js) on ANY of these does not work; only one works, but not the other, and which one works depends on the order of how they're placed. In lieu of this I've just used one script, but combined the efforts of both scripts. I don't like this solution, but it works.
+
+2. I 'added' a script call in the middle of the body to write the check out page. I know this isn't normal or even a good way to do things, but again it works and it gives me some pretty decent flexibility.
+
+3. I didn't add the checkout to the navBar because I feel: 
+	i) it's not somewhere you'd want to navigate without pushing buttons or being explicitly told, as it's kind of a 'nothing' page otherwise.
+	ii) there's already an area on each page (on the index, there's 2) to get onto the page, so it seems kind of moot.
+
+4.There is a single absolutely positioned item; that is the cat image itself. relatively positioned items include the name on the navbar, the buttons in the checkout area.
+
+5. The absolutely positioned cat just breaks through elements when the image is resized small enough; as far as I've discovered, this is due to absolute positioning works and there's not much I can do to remedy it.
+
+With all this in mind I hope you enjoy my website! It's a very simple look with not much content (I don't really have much to say currently), but I think it's a very solid looking baseline with a decent color scheme that could be improved in future.

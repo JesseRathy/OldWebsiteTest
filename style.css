@@ -1,0 +1,215 @@
+#pageWrap {
+	z-index: 2;
+	margin-top: -10px;
+	height: 100% ;
+	max-width: 900px;
+	margin: 0px auto;
+	background-color: #BDDAD8;
+	padding: 0px 80px 20px 80px;
+} 
+
+
+
+#navBar {
+	list-style-type: none;
+	margin: 0px -80px 0px -80px;
+	height: 50px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #6EA6A2;
+	top: 0;
+	
+}
+#buttonDiv{
+	padding: 10px 5px 10px 5px;
+	height: 70px;
+}
+
+
+.floatLeft{
+	float: left;
+}
+
+#image{
+	z-index: 1;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+}
+
+	
+	.clear { clear:both; display:block; overflow:hidden; visibility:hidden; height:0px;}
+
+#navBarLogo{
+    display: inline-block;
+	position: relative;
+	left: 20px;
+	top: 13px;
+	color: white;
+	text-align: justify;
+	float: left;
+	
+} 
+.navBarItem {
+	display: inline-block;
+	position: relative;
+	color: white;
+	background-color: #6EA6A2;
+	text-align: justify;
+	padding: 14px 16px;
+	height: 15px;
+	width: 70px;
+	text-decoration: none;
+	float: right;
+	transition: all 0.5s ease-in-out;
+	/*transition-property: color height;
+	transition-length: 1s;*/
+	}
+
+.navBarItem.colored{
+	border-top-style: hidden;
+	background-color: #266F6A;
+	/*background-color: #FFCEA9;*/
+	height: 25px;
+	width: 90px;
+	/**position: absolute;*//
+	text-align: center-left;
+	font-size: 25px;
+}
+.clear { clear:both; display:block; overflow:hidden; visibility:hidden; height:0px;}
+
+h1{
+	text-align: center;
+}
+
+#columnContainer {
+	z-index:2;
+	position: relative;
+	display: flex;
+	height: 500px;
+	flex-wrap: wrap;
+}
+
+.sendButton{
+	float: left;
+	border: 1px solid #023E3A;
+	background-color: #B5713E;
+	color:white;
+	padding: 15px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.sendButton:hover {
+	background-color: #BDDAD8;
+	border: 1px solid #b5713e;
+	color: black;
+}
+
+#fillDiv{
+	padding: 50px 20px 50px 20px;
+	height: 400px;
+	
+}
+
+.emptypara{
+	text-align: center;
+}
+
+.deleteitemsDiv{
+	background-color: #914F1d;
+	height: 50px;
+}
+
+.delName{
+	color: white;
+	position: relative;
+	top: 15px;
+	left: 50px;
+}
+
+.dbutton{
+	position: relative;
+	bottom: 18px;
+	right: 100px;
+	float: right;
+	border: 1px solid #125954;
+	background-color: #477B8A;
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.sendgroup .sendButton:not(:last-child){
+	border-right: none;
+}
+
+
+.viewButton{
+	float: right;
+	border: 1px solid #125954;
+	background-color: #023E3A;
+	color:white;
+	padding: 25px 55px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.viewButton:hover {
+	background-color: #6EA6A2;
+	border: 1px solid #125954;
+	color: black;
+}
+
+.column{
+	color:black;
+	z-index: 2;
+	position: relative;
+	flex: 1 0 33%;
+	background-color: #BDDAD8;
+	box-sizing: border-box;
+	padding: 10px;
+	min-width: 300px;
+}
+
+.column:hover{
+	color:white;
+	transition: all 1.0s ease-in-out;
+	background-color: #E1A273;
+}
+#centerCol{
+	z-index: 0;
+	position: relative;
+	flex: 1 0 33%;
+	background-color: #DDA66E;
+	color:white;
+	box-sizing: border-box;
+	padding: 10px;
+	min-width: 300px;
+}
+
+#centerCol:hover{
+	color: black;
+	transition: all 1.0s ease-in-out;
+	background-color: #A3CCC9;
+}
+
+
+body {
+	z-index: 2;
+	font: 16px helvetica;
+	margin: 0px;
+	background-color: #FFF6F2;
+}
